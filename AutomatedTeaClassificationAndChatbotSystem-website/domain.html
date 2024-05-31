@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>AutomatedTeaClassificationAndChatbotSystem</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Red+Rose:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+
+    <!-- Brand Start -->
+    <div class="container-fluid bg-primary text-white pt-4 pb-5 d-none d-lg-flex">
+        <div class="container pb-2">
+            <div class="d-flex align-items-center justify-content-between">
+
+                <a href="index.html" class="h1 text-white mb-0">Automated Classification of Sri Lankan Tea Types Using
+                    Machine Learning Techniques.</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- Brand End -->
+
+
+     <!-- Navbar Start -->
+     <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-3">
+                <a href="index.html" class="navbar-brand d-lg-none">
+                    <h1 class="text-primary m-0">Automated Tea Classification and Chatbot System<span class="text-dark">for Sri Lankan Tea Cultivation</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="domain.html" class="nav-item nav-link active">Domain</a>
+                        <a href="propsal.html" class="nav-item nav-link">Project Propsal</a>
+                        <a href="doc.html" class="nav-item nav-link">Documentations</a>  
+                        <a href="presentation.html" class="nav-item nav-link">Presentations</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                    <div class="ms-auto d-none d-lg-flex">
+                        <a href="https://drive.google.com/drive/folders/14oVwJFqIXKn4q7fzPLzfNwSgVZPBqWrs?usp=sharing" class="btn btn-primary py-3 px-5 animated slideInLeft rounded-pill" download>
+                            <i class="fa fa-download"></i> Download
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5 mt-4">
+            <h1 class="display-2 text-white mb-3 animated slideInDown">Domain</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Pages</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Domain</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div class="container py-5">
+        <h1 class="display-6 text-center mb-4">Literature Review</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <h5>Introduction</h5>
+                <p>Tea, a significant agricultural product in Sri Lanka, is economically, culturally and socially
+                    important.
+                    As the
+                    world's fourth largest producer of tea, Sri Lanka's tea industry plays an important role in the
+                    nation's
+                    economy,
+                    providing livelihoods to millions and contributing significantly to export earnings. Given its
+                    prominence, efforts
+                    to increase productivity and sustainability in the tea sector are vital. Automatic classification of
+                    tea
+                    using
+                    machine learning techniques represents a promising way to achieve these goals. This literature
+                    review
+                    synthesizes
+                    findings from key studies in the field, focusing on methods and results related to automatic tea
+                    classification.</p>
+                <h5>Machine Learning and Image Processing in Tea Classification</h5>
+                <p>Researchers have increasingly turned to machine learning techniques to automate tea leaf
+                    classification,
+                    aiming to
+                    improve the accuracy and efficiency of cultivar identification. Karunasena and Priyankara (2020)
+                    proposed a method
+                    combining machine learning and image processing techniques to accurately identify tea bud leaves.
+                    Their
+                    study showed
+                    promising results, highlighting the potential of automated systems to distinguish tea buds from
+                    other
+                    leaf types.
+                    Building on this foundation, subsequent studies have expanded the scope of machine learning
+                    applications
+                    in tea-related
+                    research.</p>
+                <h5>Disease Detection and Its Implications for Tea Classification</h5>
+                <p>One prominent area of focus is the identification and classification of tea leaf diseases that pose
+                    significant
+                    threats to plant health and productivity. Lata et al. (2021) introduced deep convolutional neural
+                    networks (CNNs)
+                    for automatic detection of tea leaf diseases, demonstrating the effectiveness of deep learning
+                    techniques in disease
+                    detection. Similarly, Krisnandi et al. (2019) used a composite CNN to accurately classify tea leaf
+                    diseases. These
+                    studies underscore the importance of using machine learning algorithms to combat disease outbreaks
+                    and
+                    reduce yield
+                    losses in tea cultivation.</p>
+                <h5>Plant Species and Leaf Classification</h5>
+                <p>Bambil et al. (2020) and Kanda et al. (2021) employed ML and neural networks for plant species and
+                    leaf
+                    classification, respectively. These studies utilized features like color, texture, and shape,
+                    similar to
+                    those used
+                    in tea classification. Their successful application of ML in diverse botanical contexts underscores
+                    the
+                    versatility
+                    and efficacy of these techniques for tea type classification (Bambil et al., 2020; Kanda, Xia, &
+                    Sanusi,
+                    2021)</p>
+
+                <p>
+                    Qian et al. (2019) used the Inception-V3 model for fresh tea leaves classification, achieving
+                    notable
+                    success. This
+                    study's focus on feature extraction and model optimization provides valuable insights for improving
+                    tea
+                    type
+                    classification frameworks (Qian et al., 2019).
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h5>Comparative Studies and Methodological Insights</h5>
+                <p>Comparative studies by Wagle (2021) and Diqi and Mulyani (2021) evaluated different ML algorithms,
+                    including SVM
+                    and modified AlexNet, for plant foliage classification. Their findings show that deep learning
+                    models
+                    generally
+                    outperform traditional ML algorithms, especially when handling complex image data with high
+                    variability
+                    (Wagle,
+                    2021; Diqi & Mulyani, 2021).</p>
+                <p>Azlah et al. (2019) provided a comprehensive review of techniques for foliage classification,
+                    emphasizing
+                    the
+                    importance of feature selection and model training. Their work provides a valuable reference for
+                    selecting
+                    appropriate methods and tools for tea classification (Azlah et al., 2019).</p>
+
+                <h5>Sri Lankan Tea Industry Context</h5>
+
+                <p>Sri Lanka's geographic context significantly influences research priorities and objectives in the tea
+                    sector.
+                    Gunathilake et al. (2017) investigated the impact of climate change on tea production in Sri Lanka,
+                    highlighting
+                    the vulnerability of perennial crops such as tea to changing environmental conditions (Gunathilake,
+                    Smart, &
+                    Fleming, 2017). Similarly, studies by Thayaparan and Muhandiram (2022) explored the factors
+                    influencing
+                    the
+                    choice of tea estates by smallholder tea plantation owners in specific areas of Sri Lanka and the
+                    need
+                    to
+                    consider local environmental and socioeconomic factors in tea-related research (Thaiparan and
+                    Muhandiram) These
+                    studies underscore the importance of contextualizing research findings within Sri Lanka's unique
+                    agricultural
+                    landscape.</p>
+
+                <h5>Conclusion</h5>
+                <p>The literature review highlights the interest in utilizing machine learning methods to automate
+                    various
+                    aspects of tea leaf classification, including cultivar identification, disease detection and
+                    classification. While existing research demonstrates the potential of machine learning and image
+                    processing methods to improve the accuracy and efficiency of tea-related tasks, there is a
+                    significant
+                    gap in the automatic classification of different Sri Lankan tea varieties based on leaf
+                    characteristics.
+                    Addressing this research gap requires specialized models and datasets that account for the unique
+                    attributes of Sri Lankan tea varieties, thereby contributing to the advancement of tea cultivation
+                    practices and the sustainability of the tea industry in Sri Lanka.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Service Start -->
+    <div class="container-fluid container-service py-5">
+        <div class="container pt-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-3">Research Gap</h1>
+                <p class="mb-5">There is a
+                    significant research gap in the automatic classification of different Sri Lankan tea cultivars based
+                    on
+                    leaf characteristics. Existing literature focuses mainly on disease identification and broad tea
+                    classification, ignoring subtle differences between tea cultivars in Sri Lanka. This research gap
+                    provides an
+                    opportunity to further investigate and develop specific models to suit the unique properties of Sri
+                    Lankan teas.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-hypnotize text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Enhanced Cultivar Classification Algorithms</h5>
+                        <p class="mb-4">Develop advanced machine learning algorithms specifically tailored to identify
+                            subtle differences among Sri Lankan tea cultivars based on leaf characteristics.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-search text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">High-Resolution Image Analysis</h5>
+                        <p class="mb-4">Utilize high-resolution image processing techniques to capture and analyze
+                            detailed features of tea leaves, improving the accuracy of cultivar classification.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-bar-chart-line text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Comprehensive Feature Extraction</h5>
+                        <p class="mb-4">Focus on comprehensive feature extraction, including color, texture, and shape,
+                            to
+                            differentiate between tea cultivars with high precision.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <div class="icon-box-primary mb-4">
+                            <i class="bi bi-chat-left-quote text-dark"></i>
+                        </div>
+                        <h5 class="mb-3">Chatbot Assistance</h5>
+                        <p class="mb-4">Our chatbot is here to assist you with questions or information you need
+                            regarding the classification of Sri Lankan tea cultivars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+
+
+    <!-- Navbar for Research Problem -->
+    <!-- Features Start -->
+ <!-- Features Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h1 class="mb-0">Research Problem</h1>
+            <p class="mb-5">These research problems reflect the challenges and opportunities presented in the
+                development of the mobile app, aiming to address the current gaps in Sri Lanka's tea industry.
+            </p>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-4">
+                <div class="row g-5">
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-leaf text-white"></i>
+                        </div>
+                        <h5>Inaccurate Identification of Tea Varieties</h5>
+                        <p>Manual methods for identifying tea varieties are prone to errors, affecting productivity and quality.</p>
+                    </div>
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-tools text-white"></i>
+                        </div>
+                        <h5>Labor-Intensive Sorting Process</h5>
+                        <p>The traditional sorting process is labor-intensive and time-consuming, reducing efficiency.</p>
+                    </div>
+                    <div class="col-12 wow zoomIn" data-wow-delay="1.0s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-chart-line text-white"></i>
+                        </div>
+                        <h5>Suboptimal Cultivation Practices</h5>
+                        <p>Incorrect tea variety identification can lead to suboptimal cultivation practices, affecting yield and quality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
+                        src="img/domain-Image.png" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="row g-5">
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-seedling text-white"></i>
+                        </div>
+                        <h5>Limited Disease Management Capabilities</h5>
+                        <p>Without accurate identification, managing tea plant diseases becomes more challenging.</p>
+                    </div>
+                    <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                        <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
+                            style="width: 60px; height: 60px;">
+                            <i class="fa fa-lightbulb text-white"></i>
+                        </div>
+                        <h5>Lack of Technological Integration</h5>
+                        <p>Current methods do not leverage advanced technology, limiting the potential for efficiency gains.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Features End -->
+
+    <!-- Features Start -->
+
+    <!-- Navbar for Research Problem End -->
+
+    <div class="container-fluid container-service py-5">
+        <div class="container pt-5">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="display-6 mb-3">Main Objectives</h1>
+                <p class="mb-5">The main objective of our research is to develop a mobile application using machine
+                    learning methods to automatically classify Sri Lankan teas with special focus on lowland teas.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navbar for Research objectives -->
+    <!-- Navbar for Research Objectives -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="mb-4">Specific Objectives</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="accordion" id="accordionObjectives">
+                    <!-- New Tea Leaf Classification Objectives -->
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.7s">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Collection and preparation of a comprehensive database of tea leaf images representing lowland tea cultivars.
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionObjectives">
+                            <div class="accordion-body">
+                                <h4>Database Collection and Preparation</h4>
+                                <ul>
+                                    <li>Collect tea leaf images representing lowland tea cultivars including TRI 2025, TRI 2027, TRI 4045, TRI 4049, and H1/58.</li>
+                                    <li>Prepare and organize the collected tea leaf image dataset.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.8s">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Preprocess and augment the collected tea leaf image dataset.
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                            data-bs-parent="#accordionObjectives">
+                            <div class="accordion-body">
+                                <h4>Dataset Preprocessing and Augmentation</h4>
+                                <ul>
+                                    <li>Preprocess the tea leaf images to improve their suitability for machine learning model training.</li>
+                                    <li>Augment the dataset to enhance model robustness.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item wow fadeIn" data-wow-delay="0.9s">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Design and implement machine learning algorithms for tea leaf classification.
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                            data-bs-parent="#accordionObjectives">
+                            <div class="accordion-body">
+                                <h4>Machine Learning Algorithm Design</h4>
+                                <ul>
+                                    <li>Design and implement machine learning algorithms, especially convolutional neural networks (CNNs), for tea leaf classification based on leaf features.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item wow fadeIn" data-wow-delay="1.0s">
+                        <h2 class="accordion-header" id="headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Develop a mobile application interface integrating trained machine learning model for real-time tea type classification.
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                            data-bs-parent="#accordionObjectives">
+                            <div class="accordion-body">
+                                <h4>Mobile Application Development</h4>
+                                <ul>
+                                    <li>Develop a mobile application interface that integrates the trained machine learning model for real-time classification of tea types using input tea leaf images.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item wow fadeIn" data-wow-delay="1.1s">
+                        <h2 class="accordion-header" id="headingEleven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                Include a chatbot feature in the mobile application.
+                            </button>
+                        </h2>
+                        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                            data-bs-parent="#accordionObjectives">
+                            <div class="accordion-body">
+                                <h4>Chatbot Integration</h4>
+                                <ul>
+                                    <li>Integrate a chatbot feature in the mobile application capable of responding to user queries related to tea characteristics, common diseases affecting tea plants, and recommended remedies for disease management.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Navbar for Research Objectives End -->
+
+    <!-- Navbar for Research objectives end -->
+
+    <!-- Navbar for METHODOLOGY -->
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h1 class="mb-0">Methodology</h1>
+                <p class="mb-5">Our research methodology is divided into several components, each addressing specific challenges identified in the survey.</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h4 class="mb-4">Tea Leaf Classification Using Machine Learning</h4>
+                    <p class="mb-4">To develop a system that accurately classifies different tea leaf varieties using Machine learning techniques. The system aims to optimize tea cultivation by providing precise identification of tea leaf types based on images.</p>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Data Collection</h3>
+                            <p class="fs-6">We gathered a comprehensive dataset of tea leaf images from various sources, ensuring diversity in leaf types, conditions, and environments to train and test the machine learning models.</p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Data Preprocessing</h3>
+                            <p class="fs-6">Images were preprocessed to enhance quality and consistency. This included resizing, normalization, and augmentation to improve the model's robustness and accuracy.</p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Machine Learning Algorithms</h3>
+                            <p class="fs-6">We employed Convolutional Neural Networks (CNNs) to classify tea leaf images. Various architectures were tested, with performance metrics guiding the selection of the final model.</p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Model Deployment</h3>
+                            <p class="fs-6">The trained model was converted to TensorFlow Lite and integrated into an Android application, enabling real-time tea leaf classification directly on mobile devices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </br></br></br>
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h4 class="mb-4">Chatbot development</h4>
+                    <p class="mb-4">The chatbot is developed and implemented using Natural Language Processing (NLP) techniques specifically Hugging Face Transformers to answer the user queries related to the characteristics of different teas, diseases, and their treatment.</p>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                         <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Data Collection</h3>
+                            <p class="fs-6">Data is collected through academic publications, agricultural manuals provided by the Tea Research Institute (TRI), and expert interviews. </p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>chatbot Deployment</h3>
+                            <p class="fs-6">we used colab as backend and integrated with the mobile application through FastAPI, ensuring seamless communication.</p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Functionality Testing</h3>
+                            <p class="fs-6">The chatbot underwent rigorous functionality testing to evaluate its performance in accurately understanding user queries and providing relevant responses. A wide range of test scenarios was covered to ensure comprehensive functionality.</p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Iterative Improvement</h3>
+                            <p class="fs-6">Iterative improvements were made to the chatbot's algorithms and response mechanisms based on insights from testing and user feedback. The goal was to enhance overall effectiveness and user satisfaction with the chatbot feature.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </br></br></br>
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <h4 class="mb-4">Limitations</h4>
+                    <p class="mb-4">Acknowledging the limitations of our approach, including data variability, model generalization issues, and the need for a more extensive and diverse dataset to improve robustness and accuracy.</p>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Data Variability</h3>
+                            <p class="fs-6">The quality and consistency of images varied due to different conditions, impacting the model's performance. Future work will focus on standardizing data collection processes.</p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Model Generalization</h3>
+                            <p class="fs-6">Overfitting remains a concern, with models potentially struggling to generalize to new data. Techniques such as cross-validation and augmentation will be further explored.</p>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <h3>Domain-Specific Fine-Tuning</h3>
+                            <p class="fs-6">While fine-tuned on domain-specific data, the chatbot's effectiveness in handling diverse user queries can vary. Continuous updates and domain-specific training are necessary.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- Testimonial End -->
+    <!-- Navbar for METHODOLOGY end -->
+
+    <!-- Technologies Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5 mb-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h1 class="mb-0">Technologies Used</h1>
+            </div>
+            <div class="bg-white">
+                <div class="carousel text-center">
+                    <img src="img/technologies-2.png">
+                    <img src="img/technologies-3.png">
+                    <img src="img/technologies-4.png">
+                    <img src="img/technologies-5.png">
+                    <img src="img/android-studio.png">
+                    <img src="img/tensor.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Technologies End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer position-relative bg-dark text-white-50 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-lg-6 pe-lg-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="h1 text-primary mb-0">Tea<span class="text-white">App</span></h1>
+                    </a>
+                    <p class="fs-5 mb-4">The Tea App comes to you as a virtual assistant whenever you need it through a mobile app.You can explore the technological evolution of the Sri Lankan tea industry.</p>
+                    <p><i class="fa fa-map-marker-alt me-2"></i>University of Sri Jayewardenepura, Nugegoda</p>
+                    <p><i class="fa fa-phone-alt me-2"></i>+94 76 402 2418</p>
+                    <p><i class="fa fa-envelope me-2"></i>dnshlahiru@gmail.com</p>
+                    <div class="d-flex mt-4">
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg-square btn-primary me-2" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-5">
+                    <div class="row g-5">
+                        <div class="col-sm-6">
+                            <h4 class="text-light mb-4">Quick Links</h4>
+                            <a class="btn btn-link" href="./about.html">About Us</a>
+                            <a class="btn btn-link" href="./contact.html">Contact Us</a>
+                            <a class="btn btn-link" href="./termandcondition.html">Terms & Condition</a>
+                        </div>
+                        <div class="col-sm-6">
+                    
+                        <div class="col-sm-12">
+                            <h4 class="text-light mb-4">Newsletter</h4>
+                            <div class="w-100">
+                                <div class="input-group">
+                                    <input type="text" class="form-control border-0 py-3 px-4"
+                                        style="background: rgba(255, 255, 255, .1);"
+                                        placeholder="Your Email Address"><button class="btn btn-primary px-4">Sign
+                                        Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+     <!-- Copyright Start -->
+     <div class="container-fluid copyright bg-dark text-white-50 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center text-md-start">
+                    <p class="mb-0 text-center">&copy; <a href="#">Tea App</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
